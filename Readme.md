@@ -29,4 +29,4 @@ Make sure your node app is running, symlink your app so that Pow knows about it 
 Copyright
 ---------
 
-Copyright (c) 2011 Steve Agalloco, Assaf Arkin. See [LICENSE](LICENSE.md) for details.
+Copyright (c) 2011 Steve Agalloco, Assaf Arkin. See [LICENSE](https://github.com/spagalloco/pow_proxy/blob/master/LICENSE.md) for details.
