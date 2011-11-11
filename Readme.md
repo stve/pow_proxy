@@ -22,7 +22,7 @@ require 'pow_proxy'
 run PowProxy.new(:host => '127.0.0.1', :port => 8080)
 ```
 
-You can also set the host and port by exporting the `HOST` and `PORT` environment variables in your `.powenv`.
+You can also set the host and port by exporting the `POW_PROXY_HOST` and `POW_PROXY_PORT` environment variables in your `.powenv`.
 
 Make sure your node app is running, symlink your app so that Pow knows about it and you'll be all set.
 

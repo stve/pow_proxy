@@ -33,8 +33,8 @@ describe PowProxy do
 
     context 'ENV' do
       before do
-        ENV['HOST'] = 'monk.local'
-        ENV['PORT'] = '8080'
+        ENV['POW_PROXY_HOST'] = 'monk.local'
+        ENV['POW_PROXY_PORT'] = '8080'
         @proxy = PowProxy.new
       end
 

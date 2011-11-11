@@ -8,8 +8,8 @@ class PowProxy
   attr_reader :host, :port
 
   def initialize(options = {})
-    @host = options.delete(:host) || ENV['HOST'] || DEFAULT_HOST
-    @port = options.delete(:port) || ENV['PORT'] || DEFAULT_PORT
+    @host = options.delete(:host) || ENV['POW_PROXY_HOST'] || DEFAULT_HOST
+    @port = options.delete(:port) || ENV['POW_PROXY_PORT'] || DEFAULT_PORT
   end
 
   def call(env)
