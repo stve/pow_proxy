@@ -5,6 +5,11 @@ PowProxy is a simple rack-based proxy that allows you to run your node apps thro
 
 PowProxy is based on a blog post by [Assaf Arkin](/assaf). It's super easy to use. You really should just read [Assaf's blog post](http://labnotes.org/2011/08/09/using-pow-with-your-node-js-project/) to get the full explanation.
 
+Installation
+------------
+
+    (sudo) gem install pow_proxy
+
 Usage
 -----
 
