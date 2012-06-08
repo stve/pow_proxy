@@ -1,17 +1,19 @@
-PowProxy
-========
+# PowProxy
+
+
+_Note:_ [Pow 0.4.0](http://pow.cx/manual#section_6) has built in proxying. You probably don't need this anymore.
+
+## Introduction
 
 PowProxy is a simple rack-based proxy that allows you to run your node apps through [Pow](http://pow.cx).
 
 PowProxy is based on a blog post by [Assaf Arkin](/assaf). It's super easy to use. You really should just read [Assaf's blog post](http://labnotes.org/2011/08/09/using-pow-with-your-node-js-project/) to get the full explanation.
 
-Installation
-------------
+## Installation
 
     (sudo) gem install pow_proxy
 
-Usage
------
+## Usage
 
 Create a `config.ru` file in your project's root with the following:
 
@@ -31,7 +33,6 @@ You can also set the host and port by exporting the `POW_PROXY_HOST` and `POW_PR
 
 Make sure your node app is running, symlink your app so that Pow knows about it and you'll be all set.
 
-Copyright
----------
+## Copyright
 
-Copyright (c) 2011 Steve Agalloco, Assaf Arkin. See [LICENSE](https://github.com/spagalloco/pow_proxy/blob/master/LICENSE.md) for details.
+Copyright (c) 2012 Steve Agalloco, Assaf Arkin. See [LICENSE](https://github.com/spagalloco/pow_proxy/blob/master/LICENSE.md) for details.
