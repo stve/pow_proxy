@@ -33,7 +33,7 @@ class PowProxy
         [response.code, headers, [response.body]]
       end
     rescue Errno::ECONNREFUSED
-      [500, {}, ["Could not establish a connection to #{@host}:#{@port}, make sure your node process is running."]]
+      [500, {}, ["Could not establish a connection to #{@host}:#{@port}, make sure your that the process you are proxying to is running."]]
     end
   end
 end
