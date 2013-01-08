@@ -12,12 +12,9 @@ Gem::Specification.new do |gem|
   gem.homepage      = "https://github.com/spagalloco/pow_proxy"
 
   gem.add_dependency 'rack'
-  gem.add_development_dependency 'rake', '~> 0.9'
-  gem.add_development_dependency 'rdiscount', '~> 1.6'
-  gem.add_development_dependency 'rspec', '~> 2.7'
-  gem.add_development_dependency 'simplecov', '~> 0.5'
-  gem.add_development_dependency 'yard', '~> 0.7'
-  gem.add_development_dependency 'webmock', '~> 1.7'
+
+  gem.add_development_dependency 'kramdown'
+  gem.add_development_dependency 'simplecov'
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")

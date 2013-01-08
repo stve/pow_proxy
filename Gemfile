@@ -1,4 +1,11 @@
 source 'http://rubygems.org'
 
-# Specify your gem's dependencies in pow_proxy.gemspec
+gem 'rake'
+gem 'yard'
+
+group :test do
+  gem 'rspec'
+  gem 'webmock'
+end
+
 gemspec
